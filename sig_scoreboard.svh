@@ -19,8 +19,8 @@ class sig_scoreboard extends uvm_scoreboard;
       `uvm_error(get_type_name(), "Received is not equal sent!")
     else
       while (item_collected_source.can_get()) begin
-        item_collected_source.try_get(sent);
-        item_collected_sink.try_get(received);
+        void'(item_collected_source.try_get(sent));
+        void'(item_collected_sink.try_get(received));
         assert (sent.sig_length == received.sig_length)
         else `uvm_error(get_type_name(), $sformatf(
                         "Sent length: %h Received length: %h are different.",

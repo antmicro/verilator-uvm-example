@@ -9,7 +9,7 @@ class sig_sequence extends uvm_sequence #(sig_seq_item);
     for (int i = 0; i < 10; i++) begin
       req = sig_seq_item::type_id::create("req");
       wait_for_grant();
-      req.randomize();
+      void'(req.randomize());
       send_request(req);
       wait_for_item_done();
     end
