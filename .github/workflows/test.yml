@@ -1,0 +1,13 @@
+name: Test UVM demo
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Install tuttest
+        run: pip install git+https://github.com/antmicro/tuttest
+      - name: Check out repository
+        uses: actions/checkout@v5
+      - name: Run demo
+        run: tuttest README.md | bash -
+
