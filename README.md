@@ -44,8 +44,8 @@ PATH="$(pwd)/verilator/bin:$PATH"
 To build the simulation, run:
 
 ```sh
-verilator -Wno-fatal --binary -j $(nproc) --top-module tbench_top \
-    +incdir+$UVM_HOME +define+UVM_NO_DPI +incdir+$(pwd) \
+verilator -Wno-fatal --binary --output-groups $(nproc) -j $(nproc) \
+    --top-module tbench_top +incdir+$UVM_HOME +define+UVM_NO_DPI +incdir+$(pwd) \
     $UVM_HOME/uvm_pkg.sv $(pwd)/sig_pkg.sv $(pwd)/tb.sv
 ```
 
