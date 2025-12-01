@@ -52,5 +52,5 @@ verilator -Wno-fatal --binary -j $(nproc) --top-module tbench_top \
 Finally, run the simulation:
 
 ```sh
-./obj_dir/Vtbench_top +UVM_TESTNAME=sig_model_test
+./obj_dir/Vtbench_top +UVM_TESTNAME=sig_model_test +UVM_PHASE_TRACE
 ```
