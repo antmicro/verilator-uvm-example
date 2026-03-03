@@ -1,0 +1,104 @@
+UVM_INFO /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_root.svh(449) @ 0: reporter [UVM/RELNOTES] 
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  This implementation of the UVM Library deviates from the 1800.2-2017
+  standard.  See the DEVIATIONS.md file contained in the release
+  for more details.
+
+----------------------------------------------------------------
+Accellera:1800.2-2017:UVM:1.0
+
+All copyright owners for this kit are listed in NOTICE.txt
+All Rights Reserved Worldwide
+----------------------------------------------------------------
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_root.svh(517) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+UVM_INFO @ 0: reporter [RNTST] Running test sig_model_test...
+UVM_INFO /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(289) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "uvm_test_top" of the component "uvm_test_top" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "env" of the component "uvm_test_top.env" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "sig_agnt_d" of the component "uvm_test_top.env.sig_agnt_d" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "driver" of the component "uvm_test_top.env.sig_agnt_d.driver" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "rsp_port" of the component "uvm_test_top.env.sig_agnt_d.driver.rsp_port" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "seq_item_port" of the component "uvm_test_top.env.sig_agnt_d.driver.seq_item_port" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "monitor" of the component "uvm_test_top.env.sig_agnt_d.monitor" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "item_collected_port" of the component "uvm_test_top.env.sig_agnt_d.monitor.item_collected_port" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "sequencer" of the component "uvm_test_top.env.sig_agnt_d.sequencer" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "req_fifo" of the component "uvm_test_top.env.sig_agnt_d.sequencer.req_fifo" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_ap" of the component "uvm_test_top.env.sig_agnt_d.sequencer.req_fifo.get_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_peek_export" of the component "uvm_test_top.env.sig_agnt_d.sequencer.req_fifo.get_peek_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_ap" of the component "uvm_test_top.env.sig_agnt_d.sequencer.req_fifo.put_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_export" of the component "uvm_test_top.env.sig_agnt_d.sequencer.req_fifo.put_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "rsp_export" of the component "uvm_test_top.env.sig_agnt_d.sequencer.rsp_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "seq_item_export" of the component "uvm_test_top.env.sig_agnt_d.sequencer.seq_item_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "sqr_rsp_analysis_fifo" of the component "uvm_test_top.env.sig_agnt_d.sequencer.sqr_rsp_analysis_fifo" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "analysis_export" of the component "uvm_test_top.env.sig_agnt_d.sequencer.sqr_rsp_analysis_fifo.analysis_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_ap" of the component "uvm_test_top.env.sig_agnt_d.sequencer.sqr_rsp_analysis_fifo.get_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_peek_export" of the component "uvm_test_top.env.sig_agnt_d.sequencer.sqr_rsp_analysis_fifo.get_peek_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_ap" of the component "uvm_test_top.env.sig_agnt_d.sequencer.sqr_rsp_analysis_fifo.put_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_export" of the component "uvm_test_top.env.sig_agnt_d.sequencer.sqr_rsp_analysis_fifo.put_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "sig_agnt_m" of the component "uvm_test_top.env.sig_agnt_m" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "driver" of the component "uvm_test_top.env.sig_agnt_m.driver" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "rsp_port" of the component "uvm_test_top.env.sig_agnt_m.driver.rsp_port" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "seq_item_port" of the component "uvm_test_top.env.sig_agnt_m.driver.seq_item_port" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "monitor" of the component "uvm_test_top.env.sig_agnt_m.monitor" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "item_collected_port" of the component "uvm_test_top.env.sig_agnt_m.monitor.item_collected_port" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "sequencer" of the component "uvm_test_top.env.sig_agnt_m.sequencer" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "req_fifo" of the component "uvm_test_top.env.sig_agnt_m.sequencer.req_fifo" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_ap" of the component "uvm_test_top.env.sig_agnt_m.sequencer.req_fifo.get_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_peek_export" of the component "uvm_test_top.env.sig_agnt_m.sequencer.req_fifo.get_peek_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_ap" of the component "uvm_test_top.env.sig_agnt_m.sequencer.req_fifo.put_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_export" of the component "uvm_test_top.env.sig_agnt_m.sequencer.req_fifo.put_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "rsp_export" of the component "uvm_test_top.env.sig_agnt_m.sequencer.rsp_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "seq_item_export" of the component "uvm_test_top.env.sig_agnt_m.sequencer.seq_item_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "sqr_rsp_analysis_fifo" of the component "uvm_test_top.env.sig_agnt_m.sequencer.sqr_rsp_analysis_fifo" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "analysis_export" of the component "uvm_test_top.env.sig_agnt_m.sequencer.sqr_rsp_analysis_fifo.analysis_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_ap" of the component "uvm_test_top.env.sig_agnt_m.sequencer.sqr_rsp_analysis_fifo.get_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_peek_export" of the component "uvm_test_top.env.sig_agnt_m.sequencer.sqr_rsp_analysis_fifo.get_peek_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_ap" of the component "uvm_test_top.env.sig_agnt_m.sequencer.sqr_rsp_analysis_fifo.put_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_export" of the component "uvm_test_top.env.sig_agnt_m.sequencer.sqr_rsp_analysis_fifo.put_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "sig_scb" of the component "uvm_test_top.env.sig_scb" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "item_collected_sink" of the component "uvm_test_top.env.sig_scb.item_collected_sink" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "analysis_export" of the component "uvm_test_top.env.sig_scb.item_collected_sink.analysis_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_ap" of the component "uvm_test_top.env.sig_scb.item_collected_sink.get_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_peek_export" of the component "uvm_test_top.env.sig_scb.item_collected_sink.get_peek_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_ap" of the component "uvm_test_top.env.sig_scb.item_collected_sink.put_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_export" of the component "uvm_test_top.env.sig_scb.item_collected_sink.put_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "item_collected_source" of the component "uvm_test_top.env.sig_scb.item_collected_source" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "analysis_export" of the component "uvm_test_top.env.sig_scb.item_collected_source.analysis_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_ap" of the component "uvm_test_top.env.sig_scb.item_collected_source.get_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "get_peek_export" of the component "uvm_test_top.env.sig_scb.item_collected_source.get_peek_export" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_ap" of the component "uvm_test_top.env.sig_scb.item_collected_source.put_ap" violates the uvm component name constraints
+UVM_WARNING /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_traversal.svh(274) @ 0: reporter [UVM/COMP/NAME] the name "put_export" of the component "uvm_test_top.env.sig_scb.item_collected_source.put_export" violates the uvm component name constraints
+UVM_INFO sig_scoreboard.svh(33) @ 495: uvm_test_top.env.sig_scb [sig_scoreboard] Sent length: 3 Received length: 3 are the same.
+UVM_INFO sig_scoreboard.svh(33) @ 495: uvm_test_top.env.sig_scb [sig_scoreboard] Sent length: 6 Received length: 6 are the same.
+UVM_INFO sig_scoreboard.svh(33) @ 495: uvm_test_top.env.sig_scb [sig_scoreboard] Sent length: 7 Received length: 7 are the same.
+UVM_INFO sig_scoreboard.svh(33) @ 495: uvm_test_top.env.sig_scb [sig_scoreboard] Sent length: 7 Received length: 7 are the same.
+UVM_INFO sig_scoreboard.svh(33) @ 495: uvm_test_top.env.sig_scb [sig_scoreboard] Sent length: 2 Received length: 2 are the same.
+UVM_INFO sig_scoreboard.svh(33) @ 495: uvm_test_top.env.sig_scb [sig_scoreboard] Sent length: 1 Received length: 1 are the same.
+UVM_INFO sig_scoreboard.svh(33) @ 495: uvm_test_top.env.sig_scb [sig_scoreboard] Sent length: 3 Received length: 3 are the same.
+UVM_INFO sig_scoreboard.svh(33) @ 495: uvm_test_top.env.sig_scb [sig_scoreboard] Sent length: 6 Received length: 6 are the same.
+UVM_INFO sig_scoreboard.svh(33) @ 495: uvm_test_top.env.sig_scb [sig_scoreboard] Sent length: 1 Received length: 1 are the same.
+UVM_INFO sig_scoreboard.svh(33) @ 495: uvm_test_top.env.sig_scb [sig_scoreboard] Sent length: 2 Received length: 2 are the same.
+UVM_INFO /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_report_server.svh(864) @ 495: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   14
+UVM_WARNING :   55
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[NO_DPI_TSTNAME]     1
+[RNTST]     1
+[UVM/COMP/NAME]    55
+[UVM/COMP/NAMECHECK]     1
+[UVM/RELNOTES]     1
+[sig_scoreboard]    10
+
+- /home/verifworks/vw_proj/topaz_mxg_vlt/uvm_vlt_af/src/base/uvm_root.svh:585: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.045 devel
+- Verilator: $finish at 495ps; walltime 0.202 s; speed 7.483 ns/s
+- Verilator: cpu 0.066 s on 1 threads; allocated 22 MB
