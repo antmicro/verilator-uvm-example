@@ -29,15 +29,15 @@ For the full instructions, visit Verilator's [documentation](https://verilator.o
 
 Next, download the UVM code:
 ```sh
-wget https://www.accellera.org/images/downloads/standards/uvm/Accellera-1800.2-2017-1.0.tar.gz
-tar -xvzf Accellera-1800.2-2017-1.0.tar.gz
+wget https://www.accellera.org/images/downloads/standards/uvm/UVM-1800.2-2020.3.1.tar.gz
+tar -xvzf UVM-1800.2-2020.3.1.tar.gz
 ```
 
 Now, set up the `UVM_HOME` environment variable to point to the extracted UVM sources.
 We also need `PATH` to point to Verilator:
 
 ```sh
-UVM_HOME="$(pwd)/1800.2-2017-1.0/src"
+UVM_HOME="$(pwd)/1800.2-2020.3.1/src"
 PATH="$(pwd)/verilator/bin:$PATH"
 ```
 
